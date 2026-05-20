@@ -1,0 +1,12 @@
+package com.example.jwtlearning.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class LoginRequestDto {
+    private String username;
+    private String password;
+
+}
